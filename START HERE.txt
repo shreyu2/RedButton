@@ -1,0 +1,31 @@
+BOUTIQUE DESK — OFFLINE APP
+
+This app runs on this computer and stores customer, measurement, order, payment,
+and delivery records in this browser profile. It does not need an account or
+internet connection to run.
+
+WINDOWS
+1. Extract the entire downloaded ZIP folder somewhere you can find again.
+2. Open the extracted folder and double-click "Start Boutique Desk Windows.bat".
+3. Keep the black window open while using the app. Close it to stop the app.
+
+MAC OR LINUX
+1. Extract the entire downloaded ZIP folder somewhere you can find again.
+2. On Mac, double-click "Start Boutique Desk Mac.command". If needed, open
+   Terminal in the extracted folder and run: python3 local_server.py
+3. Keep the Terminal window open while using the app. Press Ctrl+C to stop it.
+
+The app opens at http://127.0.0.1:4173. The local server listens only on this
+computer, not on your Wi-Fi network. The app files are included in this folder,
+so no internet connection is needed.
+
+IMPORTANT DATA SAFETY
+- Records stay in this browser's local storage on this computer.
+- Do not clear browser data for http://127.0.0.1:4173; that can delete records.
+- Use Settings > Export full JSON backup regularly and store the backup on a
+  separate drive or another safe location.
+- Use the same computer, browser, and address (127.0.0.1:4173) each time.
+- Backups include private customer contact details and body measurements; keep
+  them somewhere access-controlled.
+
+Python 3 must be installed on the computer to launch this portable package.

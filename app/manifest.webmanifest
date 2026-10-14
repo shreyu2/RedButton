@@ -1,0 +1,18 @@
+{
+  "name": "Boutique Desk",
+  "short_name": "Boutique Desk",
+  "description": "A private, offline-ready boutique work ledger.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f0e6",
+  "theme_color": "#23493d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
